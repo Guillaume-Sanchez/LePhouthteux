@@ -1,7 +1,7 @@
 const Mentions = () => {
     return (
         //Mentions légales
-        <div className="container mx-auto px-4 py-8 flex justify-center h-screen flex-col">
+        <div className="container mx-auto px-4 py-8 flex justify-center flex-col x-screen">
             <h1 className="text-3xl font-bold mb-4">Mentions Légales</h1>
             <p className="mb-4">Dernière mise à jour : 16 04 2025</p>
             <h2 className="text-2xl font-semibold mb-2">1. Informations légales</h2>
