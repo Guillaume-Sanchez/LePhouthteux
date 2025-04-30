@@ -2,13 +2,17 @@ import { Card, CardHeader, CardTitle, CardContent } from "@/src/components/ui/ca
 import Image from 'next/image'
 import Link from "next/link";
 
-const SingleList = () => {
+interface SingleListProps {
+    name: string;
+}
+
+const SingleList = ({ name }: SingleListProps) => {
     return (
     <Link href="/todo">
         <Card className="size-80 p-0 m-5">
             <CardHeader className="flex flex m-5 flex-col items-center justify-center">
                 <CardTitle>
-                    List Test
+                    {name}
                 </CardTitle>
             </CardHeader>
             <CardContent className="flex flex-col items-center justify-center">

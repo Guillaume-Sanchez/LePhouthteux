@@ -24,6 +24,7 @@ export default function Inscription(){
                     onChange={(e) => setPassword(e.target.value)}
                     className="border border-gray-300 rounded-md p-2"
                 />
+                <a href="">Mot de passe oublié</a>
                 <button
                     type="submit"
                     className="bg-gray-800 text-white rounded-md p-2 mt-4 hover:bg-gray-500 transition duration-200"
