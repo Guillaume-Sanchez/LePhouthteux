@@ -1,4 +1,4 @@
-# LePhouthteux
+# TP Ticket
 
 > conception d'une Mini plateforme Trello ( Césarien ) Application WEB
 
@@ -9,7 +9,6 @@ https://docs.google.com/document/d/13zBZlwhX-ck_OT52vFy9yyKO2N4VTYM5i4MC9jQj0vw/
 ### Languages & Framework
 
 - NextJs
-- ...
 - MySQL
 
 ## Equipe
@@ -69,3 +68,11 @@ https://docs.google.com/document/d/13zBZlwhX-ck_OT52vFy9yyKO2N4VTYM5i4MC9jQj0vw/
 | Chef d’équipe | pouvoir faire tout ce qu’un technicien peut faire | accès aux mêmes fonctionnalités |
 | Administrateur | pouvoir gérer les rôles des utilisateurs | attribuer la bon rôle au bon utilisateur |
 | Administrateur | je veux pouvoir m’authentifier | accéder à l’application |
+
+## Organigramme des besoins
+
+![Organigramme](./image.png)
+
+## GANT
+
+![GANT](./gant.png)
